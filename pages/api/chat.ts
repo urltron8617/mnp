@@ -30,7 +30,6 @@ export default async function handler(
   );
 
   
-
   res.writeHead(200, {
     'Content-Type': 'text/event-stream',
     'Cache-Control': 'no-cache, no-transform',
